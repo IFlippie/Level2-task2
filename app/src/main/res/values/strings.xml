@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Level2-task2</string>
+    <string name="toast_Correct">Correct</string>
+    <string name="toast_Incorrect">Incorrect</string>
+    <string name="question_Ok">ok?</string>
+    <string name="question_Boomer">boomer?</string>
+    <string name="swipe_left_true_nswipe_right_false">Swipe Left = True  Swipe Right = false</string>
 </resources>

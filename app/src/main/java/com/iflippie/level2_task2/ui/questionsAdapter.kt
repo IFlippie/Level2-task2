@@ -1,4 +1,4 @@
-package com.iflippie.level2_task2
+package com.iflippie.level2_task2.ui
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.iflippie.level2_task2.model.Questionss
+import com.iflippie.level2_task2.R
 import kotlinx.android.synthetic.main.item_questions.view.*
 
 class questionsAdapter(private val Question: List<Questionss>) : RecyclerView.Adapter<questionsAdapter.ViewHolder>() {

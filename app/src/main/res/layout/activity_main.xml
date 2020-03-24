@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvQuestions"
@@ -23,7 +23,7 @@
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Swipe Left = True \nSwipe Right = false"
+        android:text="@string/swipe_left_true_nswipe_right_false"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
